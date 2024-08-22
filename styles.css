@@ -3,15 +3,53 @@
 
 body {
     font-family: 'Merriweather', serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-image: linear-gradient(
+  85deg,
+  hsl(240deg 73% 21%) 0%,
+  hsl(232deg 88% 18%) 7%,
+  hsl(228deg 100% 17%) 13%,
+  hsl(226deg 100% 16%) 20%,
+  hsl(225deg 100% 15%) 27%,
+  hsl(224deg 100% 14%) 33%,
+  hsl(223deg 100% 13%) 40%,
+  hsl(222deg 100% 13%) 47%,
+  hsl(221deg 100% 12%) 53%,
+  hsl(220deg 100% 11%) 59%,
+  hsl(219deg 100% 10%) 66%,
+  hsl(218deg 100% 9%) 72%,
+  hsl(216deg 100% 8%) 77%,
+  hsl(216deg 93% 8%) 83%,
+  hsl(216deg 86% 7%) 88%,
+  hsl(216deg 79% 6%) 94%,
+  hsl(216deg 71% 5%) 100%
+);
+    color: #fff;
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    background-color: #013220;
+    background-image: linear-gradient(
+  85deg,
+  hsl(240deg 73% 21%) 0%,
+  hsl(232deg 88% 18%) 7%,
+  hsl(228deg 100% 17%) 13%,
+  hsl(226deg 100% 16%) 20%,
+  hsl(225deg 100% 15%) 27%,
+  hsl(224deg 100% 14%) 33%,
+  hsl(223deg 100% 13%) 40%,
+  hsl(222deg 100% 13%) 47%,
+  hsl(221deg 100% 12%) 53%,
+  hsl(220deg 100% 11%) 59%,
+  hsl(219deg 100% 10%) 66%,
+  hsl(218deg 100% 9%) 72%,
+  hsl(216deg 100% 8%) 77%,
+  hsl(216deg 93% 8%) 83%,
+  hsl(216deg 86% 7%) 88%,
+  hsl(216deg 79% 6%) 94%,
+  hsl(216deg 71% 5%) 100%
+);
     color: #fff;
     padding: 1rem 0;
 }
@@ -62,6 +100,7 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 0 1rem;
+    border:1px solid white;
 }
 
 section#articles {
@@ -75,7 +114,17 @@ article {
 article h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
-    color: tomato;
+    background: #00FF00;
+    
+      color: #258996; background-image: -webkit-linear-gradient(0deg, #008B8B 32%, #008B8B 66%, #008B8B 62%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;     
+    margin-bottom: 0.5rem;
+}
+.highlight {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    background: #00FF00;
+    
+      color: #258996; background-image: -webkit-linear-gradient(0deg, tomato 32%, tomato 66%, tomato 62%); background-clip: text; -webkit-background-clip: text; text-fill-color: transparent; -webkit-text-fill-color: transparent;     
     margin-bottom: 0.5rem;
 }
 
@@ -86,7 +135,26 @@ article p {
 }
 
 footer {
-    background-color: #013220;
+    background-image: linear-gradient(
+  85deg,
+  hsl(240deg 73% 21%) 0%,
+  hsl(232deg 88% 18%) 7%,
+  hsl(228deg 100% 17%) 13%,
+  hsl(226deg 100% 16%) 20%,
+  hsl(225deg 100% 15%) 27%,
+  hsl(224deg 100% 14%) 33%,
+  hsl(223deg 100% 13%) 40%,
+  hsl(222deg 100% 13%) 47%,
+  hsl(221deg 100% 12%) 53%,
+  hsl(220deg 100% 11%) 59%,
+  hsl(219deg 100% 10%) 66%,
+  hsl(218deg 100% 9%) 72%,
+  hsl(216deg 100% 8%) 77%,
+  hsl(216deg 93% 8%) 83%,
+  hsl(216deg 86% 7%) 88%,
+  hsl(216deg 79% 6%) 94%,
+  hsl(216deg 71% 5%) 100%
+);
     color: #fff;
     text-align: center;
     padding: 1rem 0;

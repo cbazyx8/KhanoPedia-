@@ -135,6 +135,9 @@ article p {
 }
 img{
     border: 2px solid tomato;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
